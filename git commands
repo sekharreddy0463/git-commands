@@ -1,0 +1,32 @@
+git commit --amend --reset-author  if you want to change commit message 
+ git config --global user.name "Your Name"
+ git config --global user.email you@example.com   how to configure user name and mail id 
+ 
+git config --global --edit   to view the user name and mail id
+git cherry-pick commit id _--> to pick specific commit id to merge one branch to another branch
+working directiory    --> touch file name 
+
+
+ 
+staging area  to local repo  --> git add file name or (* ) (.)
+
+in local repo -->  git commit -m "message name"
+
+local repo to remote repo ki --> git push 
+
+
+how to create a branch?  --> git branch (branch name)
+How to change one branch to another branch ? --> git checkout (branch name) 
+how to add local repo branch to remote repo ? --> git push --set-upstream origin (branch name)
+how to rename a branch? git branch -m (old-brabch) (new branch name)
+how to delete remote branch --> git push origin --delete branch name
+how to add local changes to remote repo ?---> git push
+how to pull remote changes to local repo ? ---> git pull
+how to undo changes staging area to working directiory?  git reset --mixed
+how to undo local commited changes to staging area-->  git reset --soft HEAD~1
+how to delete commits from all stages ? git reset --hard
+how to move changes to temprory area in staging area ? --> git stash
+how to undo latest commit changes in git --> git revert commit id
+how to see modified commit messages and deleted history in git ? git reflog
+Git blame is a command to inspect who made a change and when they made it. You can view the details on the terminal -->git blame file name
+how to add versions for code in git? git tag 
